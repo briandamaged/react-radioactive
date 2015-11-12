@@ -1,7 +1,7 @@
 
 import React from "react";
 
-export default function factory(factory_kwargs) {
+export function factory(factory_kwargs) {
   const factory_props = {
     name: factory_kwargs.name
   };
