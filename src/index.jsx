@@ -11,6 +11,12 @@ export function factory(factory_kwargs) {
   }
 
   return function(instance_props) {
+    // In most cases, developers will only need to specify
+    // a name.  So, we'll allow for a shorthand notation.
+    if (typeof instance_props !== 'object') {
+      instance_props = {value: instance_props};
+    }
+
     const creation_props = {};
 
     // If this radio button's value matches the selectedValue,
