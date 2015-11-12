@@ -91,3 +91,6 @@ var MyComponent = React.createClass({
 });
 ```
 
+## TODO ##
+
+* Allow for arbitrary attributes to be specified at the group level (ex: className)
