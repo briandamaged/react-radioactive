@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -Rf ./dist",
     "build": "babel -d ./dist ./src",
-    "prepublish": "babel -d ./dist ./src"
+    "prepublish": "npm run build"
   },
   "keywords": [
     "react"
