@@ -1,6 +1,6 @@
 {
   "name": "react-radioactive",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "DRY radio buttons for React",
   "main": "dist/index.js",
   "scripts": {
@@ -9,7 +9,10 @@
     "prepublish": "npm run build"
   },
   "keywords": [
-    "react"
+    "react",
+    "react-component",
+    "radio",
+    "radio-group"
   ],
   "author": "Brian Lauber",
   "license": "MIT",
