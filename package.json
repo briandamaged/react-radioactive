@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "description": "DRY radio buttons for React",
   "main": "dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [
     "react"
   ],
   "author": "Brian Lauber",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.1.5",
+    "babel-cli": "^6.1.4",
+    "babel-core": "^6.1.4",
+    "babel-eslint": "^4.1.5",
+    "babel-preset-react": "^6.1.4",
+    "react": "^0.14.2"
+  }
 }
