@@ -1,0 +1,14 @@
+{
+  "name": "react-radioactive",
+  "version": "0.1.0",
+  "description": "DRY radio buttons for React",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Brian Lauber",
+  "license": "ISC"
+}
