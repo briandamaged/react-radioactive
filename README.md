@@ -91,6 +91,44 @@ var MyComponent = React.createClass({
 });
 ```
 
+This will produce HTML output such as the following:
+
+```html
+<div data-reactid=".0">
+  <span data-reactid=".0.0">
+    What's your favorite language?
+  </span>
+  <ul data-reactid=".0.1">
+    <li data-reactid=".0.1.0">
+      <input name="language" value="ruby" data-reactid=".0.1.0.0" type="radio">
+      <span data-reactid=".0.1.0.1">
+        Ruby
+      </span>
+    </li>
+    <li data-reactid=".0.1.1">
+      <input name="language" value="python" data-reactid=".0.1.1.0" type="radio">
+      <span data-reactid=".0.1.1.1">
+        Python
+      </span>
+    </li>
+    <li data-reactid=".0.1.2">
+      <input name="language" checked="" value="javascript" data-reactid=".0.1.2.0" type="radio">
+      <span data-reactid=".0.1.2.1">
+        Javascript
+      </span>
+    </li>
+    <li data-reactid=".0.1.3">
+      <input name="language" value="java" data-reactid=".0.1.3.0" type="radio">
+      <span data-reactid=".0.1.3.1">
+        Java
+      </span>
+    </li>
+  </ul>
+</div>
+```
+
+Notice that the input for Javascript specifies ```checked=""```.  This is because its ```value``` attribute matches the radio group's ```selectedValue```.
+
 ## TODO ##
 
 * Provide ```factory``` as a default export.

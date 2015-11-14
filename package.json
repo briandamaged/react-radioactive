@@ -1,6 +1,6 @@
 {
   "name": "react-radioactive",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "DRY radio buttons for React",
   "main": "dist/index.js",
   "scripts": {
